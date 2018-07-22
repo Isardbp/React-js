@@ -1,0 +1,13 @@
+{
+  "user": {
+    "name": "Isard",
+    "description": "Description of the person with 2 lines of text",
+    "photo": "../perfil.jpg",
+    "friends": [
+      {"name": "David"},
+      {"name": "Thomas"},
+      {"name": "Marina"},
+      {"name": "Camila"}
+    ]
+    }
+}
