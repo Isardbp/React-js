@@ -6,7 +6,7 @@ import { user } from './userinfo.json';
 
 import Navigation from './components/Navigation'
 import  LeftDiv from './components/LeftDiv'
-import Card from './components/Card'
+import Cards from './components/Card'
 import RigthDiv from './components/RightDiv'
 
 
@@ -29,7 +29,7 @@ class App extends Component {
           <section className="container mw-100">
               <div className="row">
               <div className="col-2"><LeftDiv /></div>
-                  <Card />
+                  <Cards />
                   <div className="col-3"> <RigthDiv /> </div>
               </div>
           </section>

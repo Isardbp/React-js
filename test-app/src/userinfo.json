@@ -21,6 +21,7 @@
     "contacts": [
       {
         "name": "David",
+        "id": 0,
         "description": "Description David",
         "cards":[
           {"text": "dav, dav"},
@@ -29,6 +30,7 @@
       },
       {
         "name": "Marina",
+        "id": 1,
         "description": "Description Marina",
         "cards":[
           {"text": "mar, mar"},
