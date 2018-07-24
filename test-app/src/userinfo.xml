@@ -1,0 +1,26 @@
+<users>
+    <me>
+        <name>Isard</name>
+        <description>Description in 2 lines</description>
+        <cards>
+            <card>
+                <text>1rst card text</text>
+            </card>
+            <card>
+                <text>2nd card text</text>
+            </card>
+        </cards>
+    </me>
+    <user>
+        <name>David</name>
+        <description>Description in 2 lines de David</description>
+        <cards>
+            <card>
+                <text>1rst card text</text>
+            </card>
+            <card>
+                <text>2nd card text</text>
+            </card>
+        </cards>
+    </user>
+</users>

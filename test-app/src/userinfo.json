@@ -1,13 +1,40 @@
 {
-  "user": {
-    "name": "Isard",
-    "description": "Description of the person with 2 lines of text",
-    "photo": "../perfil.jpg",
-    "friends": [
-      {"name": "David"},
-      {"name": "Thomas"},
-      {"name": "Marina"},
-      {"name": "Camila"}
+  "all": {
+    "me": {
+      "name": "Isard",
+      "description": "Description of the person with 2 lines of text",
+      "cards": [
+        {
+          "text": "Pole"
+        },
+        {
+          "text": "SubPole"
+        },
+        {
+          "text": "Pole"
+        },
+        {
+          "text": "Pole"
+        }
+      ]
+    },
+    "contacts": [
+      {
+        "name": "David",
+        "description": "Description David",
+        "cards":[
+          {"text": "dav, dav"},
+          {"text": "dav2, dav2"}
+        ]
+      },
+      {
+        "name": "Marina",
+        "description": "Description Marina",
+        "cards":[
+          {"text": "mar, mar"},
+          {"text": "mar, mar"}
+        ]
+      }
     ]
-    }
+  }
 }

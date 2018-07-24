@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import {user} from "../userinfo.json";
+import {all} from "../userinfo.json";
 
 
 class RightDiv extends Component{
@@ -8,17 +8,17 @@ class RightDiv extends Component{
     constructor() {
     super();
     this.state = {
-        user
+        all
     }
     }
 
     render(){
 
-    const friends = this.state.user.friends.map((friends, i) => {
+    const friends = this.state.all.contacts.map((contacts, i) => {
             return (
                 <div className="card mb-2">
                     <div className="card-header text-left">
-                    {friends.name}
+                    {contacts.name}
                     </div>
                 </div>
             )
@@ -28,11 +28,8 @@ class RightDiv extends Component{
             <div className="card text-center">
                 <div className="card-header">
                     <ul className="nav nav-tabs card-header-tabs">
-                        <li className="nav-item w-50">
+                        <li className="nav-item w-100">
                             <a className="nav-link active" href="#">Friends</a>
-                        </li>
-                        <li className="nav-item w-50">
-                            <a className="nav-link" href="#">Music</a>
                         </li>
                     </ul>
                 </div>

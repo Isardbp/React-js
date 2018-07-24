@@ -20,7 +20,6 @@ class App extends Component {
     }
 
   render() {
-        console.log(this.state.user.friends[1].name);
     return (
       <div className="App">
           <img src={logo} className="App-logo" alt="logo" />
@@ -30,15 +29,7 @@ class App extends Component {
           <section className="container mw-100">
               <div className="row">
               <div className="col-2"><LeftDiv /></div>
-                  <div className="col-7" id="center_div">
-                        <div className="container">
-                            <div className="row mb-4">
-                                <Card />
-                                <Card />
-                                <Card />
-                            </div>
-                        </div>
-                  </div>
+                  <Card />
                   <div className="col-3"> <RigthDiv /> </div>
               </div>
           </section>
