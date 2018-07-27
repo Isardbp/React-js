@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 
 import {all} from "../userinfo.json";
 
-class Card extends Component {
+
+class Card_me extends Component{
 
     constructor(){
+        // noinspection JSAnnotator
         super();
         this.state = {
             all
@@ -12,7 +14,6 @@ class Card extends Component {
     }
 
     render(){
-
         const card = this.state.all.me.cards.map((cards, i) => {
             return (
                 <div className="card w-100 text-left mb-3">
@@ -27,13 +28,19 @@ class Card extends Component {
                 </div>
             )
         });
+        return(card)
+    }
+}
 
 
+class Cards extends Component {
+
+    render(){
         return(
             <div className="col-7" id="center_div">
                 <div className="container">
                     <div className="row mb-4">
-                        {card}
+                        <Card_me />
                     </div>
                 </div>
             </div>
@@ -41,4 +48,4 @@ class Card extends Component {
     }
 }
 
-export default Card;
+export default Cards;

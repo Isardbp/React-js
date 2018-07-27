@@ -21,6 +21,7 @@
     "contacts": [
       {
         "name": "David",
+        "id": 0,
         "description": "Description David",
         "cards":[
           {"text": "dav, dav"},
@@ -29,11 +30,26 @@
       },
       {
         "name": "Marina",
+        "id": 1,
         "description": "Description Marina",
         "cards":[
           {"text": "mar, mar"},
           {"text": "mar, mar"}
         ]
+      }
+    ],
+    "music": [
+      {
+        "name": "Extremoduro",
+        "description": "Ama ama ama y ensancha el alma"
+      },
+      {
+        "name": "Marea",
+        "description": "El hijo de la Inés"
+      },
+      {
+        "name" : "Manolo Garcia",
+        "description" : "cuando la pobreza entra por la puerta el amor salta por la ventana"
       }
     ]
   }
