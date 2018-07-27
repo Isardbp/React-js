@@ -4,19 +4,11 @@ import './App.css';
 
 import { user } from './userinfo.json';
 
-<<<<<<< HEAD
 import Navigation from './components/Navigation';
 import  LeftDiv from './components/LeftDiv';
 import Cards from './components/Card';
-import Write from './components/Write';
 import RigthDiv from './components/RightDiv';
-=======
-import Navigation from './components/Navigation'
-import  LeftDiv from './components/LeftDiv'
-import Cards from './components/Card'
-import RigthDiv from './components/RightDiv'
->>>>>>> 38f30a912e5bcbaf253fc2e660fb5bfd8e7113d5
-
+import Music_albums from './components/Music_albums';
 
 class App extends Component {
 
@@ -37,12 +29,8 @@ class App extends Component {
           <section className="container mw-100">
               <div className="row">
               <div className="col-2"><LeftDiv /></div>
-                  <Cards />
-<<<<<<< HEAD
-                  <div className="col-3"><RigthDiv /></div>
-=======
-                  <div className="col-3"> <RigthDiv /> </div>
->>>>>>> 38f30a912e5bcbaf253fc2e660fb5bfd8e7113d5
+            <div className="col-7"><Music_albums /></div>
+              <div className="col-3"><RigthDiv /></div>
               </div>
           </section>
       </div>

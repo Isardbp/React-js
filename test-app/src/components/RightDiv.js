@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import {all} from "../userinfo.json";
 
-
-export function id_contact_onclick() {
-    const a = null;
-    return a;
-}
-
 class RightDiv extends Component{
 
     constructor() {
@@ -22,7 +16,6 @@ class RightDiv extends Component{
     const friends = this.state.all.contacts.map((contacts, i) => {
             return (
                 <div className="card mb-2" id={contacts.id}>
-                    <button onClick={id_contact_onclick}>Pulsame</button>
                     <div className="card-header text-left">
                     {contacts.name}
                     </div>
@@ -76,8 +69,4 @@ class RightDiv extends Component{
     }
 }
 
-<<<<<<< HEAD
 export default RightDiv
-=======
-export default RightDiv
->>>>>>> 38f30a912e5bcbaf253fc2e660fb5bfd8e7113d5

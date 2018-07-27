@@ -41,15 +41,57 @@
     "music": [
       {
         "name": "Extremoduro",
-        "description": "Ama ama ama y ensancha el alma"
+        "description": "Rock Transgresivo",
+        "discs": [
+          { "name" : "Rock Transgresivo",
+            "songs" : [
+              {"num" : 1, "name" : "Extremaydura", "time" : "2:30"},
+              {"num" : 2, "name" : "Emparedado", "time" : "3:00"},
+              {"num" : 3, "name" : "Decidi", "time" : "3:50"},
+              {"num" : 4, "name" : " Romperas", "time" : "2:30"},
+              {"num" : 5, "name" : "Adios abanico, que llego el aire", "time" : "2:00"}
+            ]
+          },
+          { "name" : "Other",
+            "songs" : [
+              {"num" : 1, "name" : "asdf"},
+              {"num" : 2, "name" : "asdf"},
+              {"num" : 3, "name" : "asdf"},
+              {"num" : 4, "name" : " asdf"},
+              {"num" : 5, "name" : "fdaasdfasdf"}
+            ]
+          }
+        ]
       },
       {
         "name": "Marea",
-        "description": "El hijo de la Inés"
+        "description": "Rock",
+        "discs": [
+          { "name" : "Besos de Perro",
+            "songs" : [
+              {"num" : 1, "name" : "Romance de Jose Etxailarena"},
+              {"num" : 2, "name" : "El rastro"},
+              {"num" : 3, "name" : "La luna me sabe a poco"},
+              {"num" : 4, "name" : "A la mierda primavera"},
+              {"num" : 5, "name" : "En tu agujero"}
+            ]
+          }
+        ]
       },
       {
         "name" : "Manolo Garcia",
-        "description" : "cuando la pobreza entra por la puerta el amor salta por la ventana"
+        "description" : "Rock Pop",
+        "discs": [
+          { "name" : "Arena En Los Bolsillos",
+            "songs" : [
+              {"num" : 1, "name" : "Prefiero el Trapecio"},
+              {"num" : 2, "name" : "Carbon y Ramas Secas"},
+              {"num" : 3, "name" : "Del Bosque de Tu Alegria"},
+              {"num" : 4, "name" : "Pajaros de Barro"},
+              {"num" : 5, "name" : "Sobre el Oscuro Abismo en Que Te Meces"}
+            ]
+          }
+        ]
       }
     ]
   }
