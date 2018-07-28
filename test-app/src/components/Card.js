@@ -32,6 +32,7 @@ class Cards extends Component {
 
         return(
                 <div className="container">
+
                     <div className="row mb-4">
                         {card}
                     </div>

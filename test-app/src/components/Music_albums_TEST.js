@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
 import { all } from '../userinfo.json';
 
+const foo = all.music[0].discs[0];
 
 class Music_albums extends Component {
 
-  constructor(){
-    super();
-    this.state = {
-      all
-    }
-  }
-
   render(){
 
-    var songs1 = this.state.all.music[0].discs[0].songs.map((songs, i) => {
+    var songs = foo.songs.map((songs) => {
       return(
             <tr>
               <th scope="row">{songs.num}</th>
@@ -23,11 +17,7 @@ class Music_albums extends Component {
       )
     });
 
-    var album1 = (
-      <div className="album">
-        <div className="card-header text-left">
-          {this.state.all.music[0].discs[0].name}
-        </div>
+    var album = (
       <table className="table">
         <thead className="thead-dark">
           <tr>
@@ -37,16 +27,14 @@ class Music_albums extends Component {
           </tr>
         </thead>
         <tbody>
-          {songs1}
+          {songs}
         </tbody>
       </table>
-    </div>
     )
 
     return(
       <div>
-        {album1}
-        {album1}
+        {album}
       </div>
     )
   }
